@@ -102,7 +102,7 @@ button a{
 }
 
 .companylogo {
-    height: 220px;
+    height: 230px;
     width: 520px;
     text-align: center;
     background-color: var(--grey);
@@ -112,6 +112,7 @@ button a{
 
 .logo {
     font-size: 120px;
+    padding-top: 25px;
     
 
 }
@@ -122,3 +123,57 @@ button a{
     letter-spacing: 2px;
 }
 
+/* Services section */
+
+/* .services {
+    padding: 50px 200px;
+} */
+
+.services h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: var(--dark);
+    text-align: center;
+    padding: 30px;
+    }
+
+.services-container {
+    display: flex;
+    justify-content: center;
+   }
+
+.service {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.service a {
+    height: 200px;
+    width: 150px;
+    box-sizing: border-box;
+    padding: 80px 0px;
+    background-color: var(--white);
+    color: var(--dark);
+    border: 2px solid var(--blue);
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0 15px 15px 15px;
+    text-decoration: none;
+    align-items: center;
+    
+    
+}
+
+.service a:hover {
+    background-color: var(--dark);
+    color: var(--white);
+}
+
+.service p {
+    width: 150px;
+    height: auto;
+    margin-bottom: 80px;
+}
