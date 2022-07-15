@@ -21,8 +21,6 @@ body {
     
 }
 
-
-
 /* Header section */
 header {
     background-color: var(--dark);     
@@ -60,3 +58,67 @@ nav ul li a:hover {
     color: var(--dark);
     text-decoration: underline;
 }
+
+/* Intro section */
+.intro {
+    background-color: var(--dark);
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    padding: 100px 200px;
+}
+
+.introtext {
+    display: flex;
+    flex-direction: column;
+    width: 50%;  
+    row-gap: 10px;
+
+}
+
+.introtext h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: var(--white);
+}
+
+.introtext p {
+    font-size: 18px;
+    color: var(--grey);
+} 
+
+button {    
+    background-color: var(--blue);
+    border: var(--blue);
+    padding: 12px;
+    border-radius: 10px;
+    width: 100px;  
+
+}
+
+button a{
+    color: var(--white);
+    text-decoration: none;
+}
+
+.companylogo {
+    height: 220px;
+    width: 520px;
+    text-align: center;
+    background-color: var(--grey);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.logo {
+    font-size: 120px;
+    
+
+}
+
+.name {
+    font-size: 24px;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+
