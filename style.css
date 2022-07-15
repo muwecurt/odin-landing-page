@@ -148,7 +148,7 @@ button a{
 
 .service a {
     height: 200px;
-    width: 150px;
+    width: 180px;
     box-sizing: border-box;
     padding: 80px 0px;
     background-color: var(--white);
@@ -168,7 +168,7 @@ button a{
 }
 
 .service p {
-    width: 150px;
+    width: 180px;
     height: auto;
     padding-left: 15px;
     margin-bottom: 80px;
@@ -178,7 +178,7 @@ button a{
 
 .testimonials {
     background-color: var(--grey);
-    padding: 100px 300px;
+    padding: 100px 250px;
 }
 
 .testimonial-container {
@@ -216,9 +216,19 @@ button a{
 }
 
 .contact-container .contactus .bold {
+    font-size: 24px;
     font-weight: 900;
 } 
 
 .contact-container button {
     border: 2px solid var(--white);
+}
+
+/* Footer section */
+
+footer {
+    background-color: var(--dark);
+    color: var(--white);
+    padding: 20px;
+    text-align: center;
 }
