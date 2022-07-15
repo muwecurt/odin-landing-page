@@ -125,10 +125,6 @@ button a{
 
 /* Services section */
 
-/* .services {
-    padding: 50px 200px;
-} */
-
 .services h2 {
     font-size: 36px;
     font-weight: bolder;
@@ -140,13 +136,13 @@ button a{
 .services-container {
     display: flex;
     justify-content: center;
+    
    }
 
 .service {
     display: flex;
     flex-direction: column;
     text-align: center;
-    align-items: center;
 }
 
 .service a {
@@ -162,10 +158,8 @@ button a{
     font-weight: 700;
     margin: 0 15px 15px 15px;
     text-decoration: none;
-    align-items: center;
-    
-    
-}
+}  
+
 
 .service a:hover {
     background-color: var(--dark);
@@ -175,5 +169,31 @@ button a{
 .service p {
     width: 150px;
     height: auto;
+    padding-left: 15px;
     margin-bottom: 80px;
+}
+
+/* Testimonial section */
+
+.testimonials {
+    background-color: var(--grey);
+    padding: 100px 300px;
+}
+
+.testimonial-container {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.testimonial-container .testimony {
+    font-size: 36px;
+    font-weight: 100;
+    color: var(--dark);
+}
+
+.testimonial-container .customer {
+    font-size: 24px;
+    color: var(--dark);
+    align-self: flex-end;
 }
